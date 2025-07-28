@@ -1,0 +1,19 @@
+{
+  "tareas": [
+    {
+      "id": "1",
+      "titulo": "preparar clase de Js",
+      "completada": false
+    },
+    {
+      "id": "1752799192963",
+      "titulo": "hola",
+      "completada": true
+    },
+    {
+      "id": "1752799333107",
+      "titulo": "hola",
+      "completada": true
+    }
+  ]
+}
