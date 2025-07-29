@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: roboto;
+    
+}
+
+body{
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../cuaderno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section{
+    background-color: rgba(0, 89, 255, 0.712);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+ul{
+    background-color: rgba(253, 253, 253, 0.61);
+    padding: 30px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: 5s ease;
+}
+h1{color: rgb(0, 0, 0);
+font-size: 50px;}
+
+li{
+    list-style: none;
+    display: flex;
+    gap:20px;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.add{
+    width: 100px;
+    height: 100px;
+    border-radius:100px ;
+    background-color: rgb(0, 89, 255);
+ 
+}
+button{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius:12px ;
+    color: white;
+}
+.tipos{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 100px;
+}
+#Mostrar{
+    width: 60px;
+    border: 4px;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+form input{
+    width: 300px;
+    border-radius: 7px;
+    height: 60px;
+    border: none;
+    background-color: white;
+}

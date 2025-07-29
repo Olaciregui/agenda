@@ -5,20 +5,34 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Anton&family=Cabin:ital,wght@0,400..700;1,400..700&family=Cal+Sans&family=Jockey+One&family=Lilita+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins&family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Vite App</title>
   </head>
   <body>
     <form action="" id="formData">
       <h1>Mi agenda</h1>
       <input id="date" type="text">
-      <button type="submit">Agregar</button>
+      <button type="submit" class="add">Agregar</button>
   </form>
-    <div id="logic">
-      <button id="" onclick="getComplete()">completadas</button>
-      <button id="" onclick="getPendientes()">pendientes</button>
-      <button onclick="getData()">todas</button>
+   
+  <section>
+    
+    <button id="Mostrar" onclick="getData()">Mostrar</button>
+    <div class="tipos">
+      <div>
+        <h2>Todas</h2>
+        <ul id="tasks"></ul>
+      </div>
+      <div>
+        <h2>Completas</h2>
+        <ul id="tasksComp"></ul>
+      </div>
+      <div>
+        <h2>Pendientes</h2>
+        <ul id="tasksPend"></ul>
+      </div>
     </div>
-    <ul id="tasks"></ul>
+  </section>
   </body>
   <script src="./src/main.js"></script>
 </html>

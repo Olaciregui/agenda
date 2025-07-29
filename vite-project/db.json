@@ -1,19 +1,29 @@
 {
   "tareas": [
     {
-      "id": "1",
-      "titulo": "preparar clase de Js",
+      "id": "1753823155099",
+      "titulo": "unir a inmoov",
       "completada": false
     },
     {
-      "id": "1752799192963",
-      "titulo": "hola",
+      "id": "1753823164115",
+      "titulo": "armar cabeza",
       "completada": true
     },
     {
-      "id": "1752799333107",
-      "titulo": "hola",
+      "id": "1753823185987",
+      "titulo": "armar brazo derecho",
       "completada": true
+    },
+    {
+      "id": "1753823197499",
+      "titulo": "armar brazo izq",
+      "completada": true
+    },
+    {
+      "id": "1753823278764",
+      "titulo": "limpiar la impresora",
+      "completada": false
     }
   ]
 }
